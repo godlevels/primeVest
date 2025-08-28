@@ -1,0 +1,38 @@
+# Environment files (keep examples)
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Local databases
+*.sqlite
+*.sqlite-journal
+
+# Cache/temp
+.tmp/
+.cache/
